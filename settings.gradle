@@ -1,0 +1,3 @@
+include ':slideButtonLibrary'
+include ':app'
+rootProject.name = "SlideButton"

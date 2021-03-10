@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.queensherainfotech.slidebuttonlibrary.SlideView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slideView"
+        android:layout_marginVertical="8sp"
+        android:layout_marginHorizontal="16sp"
+        android:layout_centerVertical="true"
+        app:buttonBackgroundColor="#ffffff"
+        app:buttonImage="@drawable/ic_chevron_double_right"
+        app:slideBackgroundColor="#3f51b5"
+        app:slideText="Get started"
+        app:slideTextSize="16sp"
+        app:slideTextColor="#ffffff" />
+
+</RelativeLayout>
